@@ -100,4 +100,10 @@ public class Byte : MonoBehaviour
         }
         this.value = newValue;
     }
+
+    public string getHex()
+    {
+        string HexValue = value.ToString("X2");
+        return HexValue;
+    }
 }
